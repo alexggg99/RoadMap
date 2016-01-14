@@ -1,4 +1,4 @@
-package domain;
+package RoadMap.domain;
 
 /**
  * Created by Alex on 14.01.2016.
@@ -17,7 +17,6 @@ public class RoadDomain implements Road {
         this.cityDomain2 = cityDomain2;
     }
 
-    @Override
     public String getName() {
         return name;
     }
@@ -26,7 +25,6 @@ public class RoadDomain implements Road {
         this.name = name;
     }
 
-    @Override
     public int getLength() {
         return length;
     }
@@ -35,12 +33,10 @@ public class RoadDomain implements Road {
         this.length = length;
     }
 
-    @Override
     public City getCity1() {
         return cityDomain1;
     }
 
-    @Override
     public City getCity2() {
         return cityDomain2;
     }

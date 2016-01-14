@@ -1,4 +1,4 @@
-package domain;
+package RoadMap.domain;
 
 /**
  * Created by Alex on 14.01.2016.

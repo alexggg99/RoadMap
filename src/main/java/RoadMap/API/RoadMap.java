@@ -1,7 +1,7 @@
-package API;
+package RoadMap.API;
 
-import domain.City;
-import domain.Road;
+import RoadMap.domain.City;
+import RoadMap.domain.Road;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import java.util.List;
  */
 public interface RoadMap {
     public City addCity(String name, int x, int y);
-    public Road addRoad(String name, int length, City city1, City city2);
+    public Road addRoad(String name, int length, String cityName1, String cityName2);
     public Road deleteRoad(String name);
     public City getCityByName(String name);
-    public List<City> getRoadListByCityName(String name);
+    public List<Road> getRoadListByCityName(String name);
 }
